@@ -1,0 +1,12 @@
+.footer {
+    background-color: #3a3a3a;
+    color: silver;
+    padding-bottom: 2em;
+    &_list {
+        display: flex;
+    }
+    &_content {
+        text-align: center;
+        font-style: italic;
+    }
+}

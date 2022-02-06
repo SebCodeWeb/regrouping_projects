@@ -1,0 +1,23 @@
+.accueil {
+    background-color: #3a3a3a;
+    color: silver;
+    &_title {
+        text-align: center;
+        font-weight: bold;
+        padding-top: 1em;
+    }
+    &_text {
+        text-align: center;
+        font-weight: bold;
+    }
+    &_content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        & img {
+            padding: 1em;
+            height: 200px;
+        }
+    }
+}
